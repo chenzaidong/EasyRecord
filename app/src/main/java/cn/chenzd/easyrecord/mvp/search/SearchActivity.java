@@ -163,6 +163,8 @@ public class SearchActivity extends BaseActivity implements BaseQuickAdapter.OnI
                 intent.putExtra("account", item);
                 startActivity(intent);
                 break;
+            default:
+                break;
         }
     }
 

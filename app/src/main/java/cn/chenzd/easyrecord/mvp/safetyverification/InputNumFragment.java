@@ -252,6 +252,8 @@ public class InputNumFragment extends Fragment implements SafetyverificationCont
                     setIvNum(mPasswords.size());
                 }
                 break;
+            default:
+                break;
         }
     }
 
@@ -582,11 +584,14 @@ public class InputNumFragment extends Fragment implements SafetyverificationCont
      */
     @Override
     public void onCheckNumberPassword(boolean pass) {
+        //密码正确
         if (pass) {
             mTvTitle.setText(R.string.thanks_for_using);
             getActivity().setResult(Activity.RESULT_OK);
             getActivity().finish();
+            mSharedPreferences.edit().putInt(SP_KEY_INPUT_COUNT, MAX_INPUT_NUM_MAX_COUNT).apply();
         } else {
+            //密码错误
             mTvTitle.setText(R.string.error_password);
             mPasswords.clear();
             setIvNum(mPasswords.size());
@@ -615,6 +620,9 @@ public class InputNumFragment extends Fragment implements SafetyverificationCont
         }
     }
 
+    /**
+     * 开启定位功能
+     */
     private void startLocation() {
         if (ActivityCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
                 && Utils.isOPenOfGPS()) {
@@ -625,6 +633,9 @@ public class InputNumFragment extends Fragment implements SafetyverificationCont
         }
     }
 
+    /**
+     * 关闭定位功能
+     */
     private void stopLocation() {
         if (Utils.isOPenOfGPS()) {
             if (mLocationManager == null)

@@ -36,10 +36,9 @@ public interface Constant {
     /**
      * 输错密码等待时间（秒）
      */
-    int PASSWORD_ERROR_WAIT_TIME=20;
+    int PASSWORD_ERROR_WAIT_TIME=60;
 
     String BAIDU_AK="1dc2dII7ZpL5bzCDUFT2uW4kQx4re04x";
-
 
     String BAIDU_MAP_BASE = "http://api.map.baidu.com/staticimage/v2?";
 }

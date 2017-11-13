@@ -28,10 +28,10 @@
 
             <ImageView
                 android:scaleType="centerInside"
-                android:layout_margin="@dimen/title_icon_margin"
                 android:id="@+id/iv_add_account"
-                android:layout_width="?attr/actionBarSize"
-                android:layout_height="match_parent"
+                android:layout_width="@dimen/title_icon_width"
+                android:layout_height="@dimen/title_icon_width"
+                android:layout_marginEnd="@dimen/title_icon_margin_end"
                 android:layout_gravity="end|center_vertical"
                 android:src="@mipmap/ic_add_type_done"/>
         </android.support.v7.widget.Toolbar>

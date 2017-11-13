@@ -3,9 +3,11 @@
     <dimen name="icon_width">@dimen/x90</dimen>
     <dimen name="select_icon_width">@dimen/x150</dimen>
     <dimen name="popup_select_icon_width">@dimen/x80</dimen>
-    <dimen name="title_icon_margin">@dimen/x30</dimen>
+    <dimen name="title_icon_width">@dimen/x80</dimen>
+    <dimen name="title_icon_margin_end">@dimen/x50</dimen>
+
     <dimen name="fab_margin">@dimen/x40</dimen>
-    <dimen name="item_height">@dimen/y150</dimen>
+    <dimen name="item_height">@dimen/y200</dimen>
     <dimen name="account_detail_item_height">@dimen/y100</dimen>
 
 </resources>

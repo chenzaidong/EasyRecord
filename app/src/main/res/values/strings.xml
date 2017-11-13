@@ -83,8 +83,11 @@
     <string name="location_longitude_latitude">经度:&#160;%1$8f&#160;\n纬度:&#160;%2$.8f</string>
     <string name="input_count">还有&#160;%1$d&#160;次机会</string>
     <string name="please_wait">请等待&#160;%1$d&#160;秒后再次尝试</string>
-    <string name="about_description">个人学习项目\n功能及UI仿照ios password 3 \n个人博客：</string>
-    <string name="about_blog">chenzd.cn</string>
+    <string name="about_blog">个人博客：</string>
+    <string name="about_blog_address">chenzd.cn</string>
+    <string name="about_github">源码地址:</string>
+    <string name="about_github_address">https://github.com/chenzaidong/EasyRecord</string>
+
     <string name="request_authorization">授权摄像头及定位功能</string>
     <string name="start_authorization">开始授权</string>
     <string name="intrusion_monitoring_description">

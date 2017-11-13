@@ -28,13 +28,13 @@
                     android:layout_height="wrap_content" />
                 <ImageView
                     android:scaleType="centerInside"
-                    android:layout_margin="@dimen/title_icon_margin"
-                    android:layout_marginEnd="@dimen/x50"
+                    android:layout_width="@dimen/title_icon_width"
+                    android:layout_height="@dimen/title_icon_width"
+                    android:layout_marginEnd="@dimen/title_icon_margin_end"
                     android:id="@+id/iv_add_type"
                     android:layout_gravity="end|center_vertical"
                     android:src="@mipmap/ic_add_type"
-                    android:layout_width="?attr/actionBarSize"
-                    android:layout_height="match_parent" />
+                    />
                 </android.support.v7.widget.Toolbar>
     </android.support.design.widget.AppBarLayout>
     <android.support.v4.widget.NestedScrollView

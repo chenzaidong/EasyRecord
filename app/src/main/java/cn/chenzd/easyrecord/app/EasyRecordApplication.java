@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -84,6 +85,7 @@ public class EasyRecordApplication extends Application {
      * 初始化Log信息
      */
     private void initLog() {
+        Log.i("EasyRecord","initLog");
         FormatStrategy formatStrategy = PrettyFormatStrategy.newBuilder()
                 .tag("EasyRecord")
                 .build();

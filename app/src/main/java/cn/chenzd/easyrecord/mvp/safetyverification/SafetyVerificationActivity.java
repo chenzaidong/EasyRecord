@@ -9,7 +9,9 @@ import cn.chenzd.easyrecord.R;
 import cn.chenzd.easyrecord.base.ActivityCollector;
 import cn.chenzd.easyrecord.utils.FingerprintUtil;
 
+import static cn.chenzd.easyrecord.constant.Constant.MAX_INPUT_NUM_MAX_COUNT;
 import static cn.chenzd.easyrecord.constant.Constant.SP_KEY_FINGER_PRINT;
+import static cn.chenzd.easyrecord.constant.Constant.SP_KEY_INPUT_COUNT;
 import static cn.chenzd.easyrecord.constant.Constant.SP_NAME;
 
 /**
@@ -25,7 +27,8 @@ public class SafetyVerificationActivity extends AppCompatActivity {
         setContentView(R.layout.password_authentification_layout);
         final SharedPreferences sharedPreferences = getSharedPreferences(SP_NAME, MODE_PRIVATE);
         boolean finger = sharedPreferences.getBoolean(SP_KEY_FINGER_PRINT, false);
-        if (finger) {
+        int inputCount = sharedPreferences.getInt(SP_KEY_INPUT_COUNT,MAX_INPUT_NUM_MAX_COUNT);
+        if (finger && inputCount >0) {
             FingerprintUtil.registerSupportCallbackListener(mOnSupportCallbackListener);
             FingerprintUtil.supportFingerprint();
         } else {

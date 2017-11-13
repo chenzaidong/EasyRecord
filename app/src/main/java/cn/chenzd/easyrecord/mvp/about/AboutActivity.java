@@ -20,6 +20,8 @@ import cn.chenzd.easyrecord.base.BaseActivity;
 public class AboutActivity extends BaseActivity {
     @BindView(R.id.tv_blog)
     TextView mTvBlog;
+    @BindView(R.id.tv_github)
+    TextView mTvGithub;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -28,8 +30,16 @@ public class AboutActivity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        isActive = true;
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
+
     @OnClick(R.id.tv_blog)
-    public void onViewClicked() {
+    public void onTvBlogClicked() {
         Intent intent = new Intent();
         intent.setAction("android.intent.action.VIEW");
         Uri content_url = Uri.parse(mTvBlog.getText().toString());
@@ -37,9 +47,12 @@ public class AboutActivity extends BaseActivity {
         startActivityForResult(intent, 1000);
     }
 
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        isActive = true;
-        super.onActivityResult(requestCode, resultCode, data);
+    @OnClick(R.id.tv_github)
+    public void onTvGithubClicked() {
+        Intent intent = new Intent();
+        intent.setAction("android.intent.action.VIEW");
+        Uri content_url = Uri.parse(mTvGithub.getText().toString());
+        intent.setData(content_url);
+        startActivityForResult(intent, 1000);
     }
 }
