@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/x50">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_notes"
+            android:textColor="@android:color/tertiary_text_light" />
+
+        <ImageView
+            android:padding="@dimen/x40"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tv_done"
+            android:layout_width="@dimen/select_icon_width"
+            android:layout_height="@dimen/select_icon_width"
+            android:src="@mipmap/ic_add_type_done" />
+    </RelativeLayout>
+
+    <EditText
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:id="@+id/et_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:inputType="textMultiLine"
+         />
+</LinearLayout>

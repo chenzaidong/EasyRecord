@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_width">@dimen/x90</dimen>
+    <dimen name="select_icon_width">@dimen/x150</dimen>
+    <dimen name="popup_select_icon_width">@dimen/x80</dimen>
+    <dimen name="title_icon_margin">@dimen/x30</dimen>
+    <dimen name="fab_margin">@dimen/x40</dimen>
+    <dimen name="item_height">@dimen/y150</dimen>
+    <dimen name="account_detail_item_height">@dimen/y100</dimen>
+
+</resources>

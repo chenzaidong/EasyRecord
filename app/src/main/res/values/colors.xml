@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#3BDB3B</color>
+    <color name="colorPrimary">#00B7C3</color>
+    <color name="colorPrimary_50">#7b00b7c3</color>
+    <color name="colorAccent">#3BDB3B</color>
+    <color name="colorText">#3BDB3B</color>
+    <color name="textColorPrimary">#7C859C</color>
+    <color name="textColorHint">#7f7c859c</color>
+    <color name="addNoteBG">#b8686c75</color>
+    <color name="imageBG">#dc8b909b</color>
+    <color name="settingsTitleBG">#F5F5F7</color>
+    <color name="titleBG">#e6e6e6</color>
+    <color name="line">#a7e6e6e6</color>
+    <color name="dialogBG">#e9e9e9</color>
+    <color name="blue">#0000FF</color>
+    <color name="text_blue">#4079ff</color>
+    <color name="text_finger_print">#005EDC</color>
+    <color name="multiple_image_select_primaryDark">@color/colorPrimary</color>
+    <color name="unauthorized">#ff6600</color>
+    <color name="authorized">#3BDB3B</color>
+</resources>

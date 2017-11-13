@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/y30"
+        android:text="@string/settings"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/x40"/>
+
+    <TextView
+        style="@style/SettingsTitleStyle"
+        android:text="@string/set_password"/>
+
+    <LinearLayout
+        android:id="@+id/ll_change_number_password"
+        style="@style/SettingsLLStyle">
+
+        <TextView
+            style="@style/SettingsItemStyle"
+            android:text="@string/password_changes"/>
+
+        <ImageView
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:src="@mipmap/ic_right"/>
+    </LinearLayout>
+
+    <View
+        style="@style/SettingsLineStyle"/>
+
+    <LinearLayout
+        style="@style/SettingsLLStyle">
+
+        <TextView
+            style="@style/SettingsItemStyle"
+            android:text="@string/touch_id_unlock"/>
+y
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/sc_finger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_right"/>
+    </LinearLayout>
+
+    <View
+        style="@style/SettingsLineStyle"/>
+
+    <LinearLayout
+        android:id="@+id/ll_invasion_record"
+        style="@style/SettingsLLStyle">
+
+        <TextView
+            style="@style/SettingsItemStyle"
+            android:text="@string/invasion_record"/>
+
+        <ImageView
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:src="@mipmap/ic_right"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/SettingsTitleStyle"
+        android:text="@string/about"/>
+
+    <LinearLayout
+        android:id="@+id/ll_cache"
+        style="@style/SettingsLLStyle">
+
+        <TextView
+            style="@style/SettingsItemStyle"
+            android:text="@string/cache"/>
+
+        <TextView
+            android:id="@+id/tv_cache"
+            android:layout_marginEnd="@dimen/x30"
+            android:text="123M"
+            android:textSize="@dimen/x40"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x100"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/SettingsLineStyle"/>
+
+    <LinearLayout
+        style="@style/SettingsLLStyle">
+
+        <TextView
+            style="@style/SettingsItemStyle"
+            android:text="@string/version"/>
+
+        <TextView
+            android:layout_marginEnd="@dimen/x30"
+            android:text="1.0.0"
+            android:textSize="@dimen/x40"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/x100"
+            />
+    </LinearLayout>
+
+    <View
+        style="@style/SettingsLineStyle"/>
+
+    <LinearLayout
+        android:id="@+id/ll_about"
+        style="@style/SettingsLLStyle">
+
+        <TextView
+            style="@style/SettingsItemStyle"
+            android:text="@string/about"/>
+
+        <ImageView
+            android:layout_width="@dimen/x100"
+            android:layout_height="@dimen/x100"
+            android:src="@mipmap/ic_right"/>
+    </LinearLayout>
+</LinearLayout>

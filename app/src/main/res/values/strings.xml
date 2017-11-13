@@ -1,0 +1,224 @@
+<resources>
+    <string name="app_name">易记录</string>
+    <string name="drawer_open">打开</string>
+    <string name="drawer_close">关闭</string>
+    <string name="search">搜索</string>
+    <string name="edit_type">编辑分类</string>
+    <string name="edit">编辑</string>
+    <string name="edit_account">编辑账户</string>
+    <string name="type_name">分类标题</string>
+    <string name="input_type_name">请输入分类标题</string>
+    <string name="delete">删除</string>
+    <string name="deleted">已删除</string>
+    <string name="delete_all">全部删除</string>
+    <string name="move">迁移</string>
+    <string name="confirm_delete">是否删除分类: %1$s </string>
+    <string name="footer">我是有底线的</string>
+    <string name="name_not_null">分类标题不能为空</string>
+    <string name="add_error_name_existed">分类标题已存在</string>
+    <string name="add_account">添加账户</string>
+    <string name="account_title">标题</string>
+    <string name="account_name">名称</string>
+    <string name="account_password">密码</string>
+    <string name="account_notes">备注</string>
+    <string name="action_next">下一步</string>
+    <string name="empty_view">没有数据记录</string>
+    <string name="is_delete">是否删除&#160;</string>
+    <string name="is_delete_pic">是否删除该图片</string>
+    <string name="cancel">取消</string>
+    <string name="sure">确定</string>
+    <string name="take_pictures">拍照</string>
+    <string name="album">系统相册</string>
+    <string name="settings">设置</string>
+    <string name="set_password">密码设置</string>
+    <string name="password_changes">密码变更</string>
+    <string name="touch_id_unlock">指纹解锁</string>
+    <string name="invasion_record">入侵记录</string>
+    <string name="local_backup">本地备份</string>
+    <string name="export">导出</string>
+    <string name="importText">导入</string>
+    <string name="about">关于</string>
+    <string name="version">版本</string>
+    <string name="cache">缓存</string>
+    <string name="hasCopy">已经复制 %1$s </string>
+    <string name="warning_max_pages">最多选择 %1$d 张图片</string>
+    <string name="cleaning_cache">正在清理&#8230;</string>
+    <string name="input_password">请输入密码</string>
+    <string name="input_old_password">请输入旧密码</string>
+    <string name="first_input_password">请输入新密码</string>
+    <string name="second_input_password">请重复输入新密码</string>
+    <string name="finger">指纹解锁</string>
+    <string name="finger_discerning">指纹识别中&#8230;</string>
+    <string name="finger_print">点击进行指纹解锁</string>
+    <string name="other_methods">用其他方式验证</string>
+    <string name="error_password">密码错误</string>
+    <string name="error_second_password">两次密码不一致</string>
+    <string name="error_input_title_is_null">标题不能为空</string>
+    <string name="thanks_for_using">感谢使用</string>
+    <string name="cancel_change_password">取消更改</string>
+    <string name="tip">提示</string>
+    <string name="tip_content">当前分类存在 %1$d 条数据，是否全部删除?</string>
+    <string name="error_hardware_not_detected">设备不支持指纹！</string>
+    <string name="error_keyguard_not_secured">设置未处于安全保护中，请先到设置中设置一个锁屏密码！</string>
+    <string name="error_has_not_enrolled_fingerprints">请到设置中设置一个指纹！</string>
+    <string name="error_version_less_6">系统版本低于Android6.0，无法支持指纹！</string>
+    <string name="unlock_the_failure">指纹验证失败，请再次尝试</string>
+    <string name="finger_check_exception">指纹验证异常</string>
+    <string name="intrusion_monitoring">入侵监控</string>
+    <string name="intrusion_monitoring_instructions">入侵监控功能会记录下其他人尝试本软件密码失败时的地理位置和照片</string>
+    <string name="device_to_support">需要以下功能支持</string>
+    <string name="permission_to_support">需要以下权限支持</string>
+    <string name="camera_permission">系统相册、摄像头</string>
+    <string name="gps">GPS</string>
+    <string name="unauthorized">未授权</string>
+    <string name="authorized">已授权</string>
+    <string name="opened">已开启</string>
+    <string name="closed">已关闭</string>
+    <string name="location">位置</string>
+    <string name="error_location_null">未获取到地址信息！</string>
+    <string name="error_location_not_open">GPS未开启，无法获取地址信息!</string>
+    <string name="error_location_unauthorized">定位权限未开启，无法获取地址信息!</string>
+    <string name="open_that">如果您拒绝了授权部分功能，需要打开系统设置页面开启功能</string>
+    <string name="record">记录</string>
+    <string name="location_longitude_latitude">经度:&#160;%1$8f&#160;\n纬度:&#160;%2$.8f</string>
+    <string name="input_count">还有&#160;%1$d&#160;次机会</string>
+    <string name="please_wait">请等待&#160;%1$d&#160;秒后再次尝试</string>
+    <string name="about_description">个人学习项目\n功能及UI仿照ios password 3 \n个人博客：</string>
+    <string name="about_blog">chenzd.cn</string>
+    <string name="request_authorization">授权摄像头及定位功能</string>
+    <string name="start_authorization">开始授权</string>
+    <string name="intrusion_monitoring_description">
+        由于在输错密码的时候，应用会悄悄拍下一张照片保存下来，并记录地点。
+        若您是Android6.0及以上系统，
+        需要要您授权允许使用手机的摄像头功能及定位功能。
+        取消授权摄像头及定位功能会停止此功能的使用</string>
+    <string name="cancel_authorization">您取消了授权，需要开启功能，可以在设置-入侵记录 中开启</string>
+    <string name="gps_not_open">手机GPS未开启，入侵监控功能将不能获取定位信息，可以在系统设置中开启</string>
+    <string-array name="default_types">
+        <item>银行账户</item>
+        <item>电子邮箱</item>
+        <item>网站论坛</item>
+        <item>聊天账号</item>
+        <item>游戏账号</item>
+        <item>其他账户</item>
+        <item>私密记事</item>
+    </string-array>
+    <string-array name="default_type_icons">
+        <item>@drawable/icon8</item>
+        <item>@drawable/icon15</item>
+        <item>@drawable/icon29</item>
+        <item>@drawable/icon4</item>
+        <item>@drawable/icon1</item>
+        <item>@drawable/icon14</item>
+        <item>@drawable/icon90</item>
+    </string-array>
+    <string-array name="icons_id">
+        <item>@drawable/icon1</item>
+        <item>@drawable/icon2</item>
+        <item>@drawable/icon3</item>
+        <item>@drawable/icon4</item>
+        <item>@drawable/icon5</item>
+        <item>@drawable/icon6</item>
+        <item>@drawable/icon7</item>
+        <item>@drawable/icon8</item>
+        <item>@drawable/icon9</item>
+        <item>@drawable/icon10</item>
+        <item>@drawable/icon11</item>
+        <item>@drawable/icon12</item>
+        <item>@drawable/icon13</item>
+        <item>@drawable/icon14</item>
+        <item>@drawable/icon15</item>
+        <item>@drawable/icon16</item>
+        <item>@drawable/icon17</item>
+        <item>@drawable/icon18</item>
+        <item>@drawable/icon19</item>
+        <item>@drawable/icon20</item>
+        <item>@drawable/icon21</item>
+        <item>@drawable/icon22</item>
+        <item>@drawable/icon23</item>
+        <item>@drawable/icon24</item>
+        <item>@drawable/icon25</item>
+        <item>@drawable/icon26</item>
+        <item>@drawable/icon27</item>
+        <item>@drawable/icon28</item>
+        <item>@drawable/icon29</item>
+        <item>@drawable/icon30</item>
+        <item>@drawable/icon31</item>
+        <item>@drawable/icon32</item>
+        <item>@drawable/icon33</item>
+        <item>@drawable/icon34</item>
+        <item>@drawable/icon35</item>
+        <item>@drawable/icon36</item>
+        <item>@drawable/icon37</item>
+        <item>@drawable/icon38</item>
+        <item>@drawable/icon39</item>
+        <item>@drawable/icon40</item>
+        <item>@drawable/icon41</item>
+        <item>@drawable/icon42</item>
+        <item>@drawable/icon43</item>
+        <item>@drawable/icon44</item>
+        <item>@drawable/icon45</item>
+        <item>@drawable/icon46</item>
+        <item>@drawable/icon47</item>
+        <item>@drawable/icon48</item>
+        <item>@drawable/icon49</item>
+        <item>@drawable/icon50</item>
+        <item>@drawable/icon51</item>
+        <item>@drawable/icon52</item>
+        <item>@drawable/icon53</item>
+        <item>@drawable/icon54</item>
+        <item>@drawable/icon55</item>
+        <item>@drawable/icon56</item>
+        <item>@drawable/icon57</item>
+        <item>@drawable/icon58</item>
+        <item>@drawable/icon59</item>
+        <item>@drawable/icon60</item>
+        <item>@drawable/icon61</item>
+        <item>@drawable/icon62</item>
+        <item>@drawable/icon63</item>
+        <item>@drawable/icon64</item>
+        <item>@drawable/icon65</item>
+        <item>@drawable/icon66</item>
+        <item>@drawable/icon67</item>
+        <item>@drawable/icon68</item>
+        <item>@drawable/icon69</item>
+        <item>@drawable/icon70</item>
+        <item>@drawable/icon71</item>
+        <item>@drawable/icon72</item>
+        <item>@drawable/icon73</item>
+        <item>@drawable/icon74</item>
+        <item>@drawable/icon75</item>
+        <item>@drawable/icon76</item>
+        <item>@drawable/icon77</item>
+        <item>@drawable/icon78</item>
+        <item>@drawable/icon79</item>
+        <item>@drawable/icon80</item>
+        <item>@drawable/icon81</item>
+        <item>@drawable/icon82</item>
+        <item>@drawable/icon83</item>
+        <item>@drawable/icon84</item>
+        <item>@drawable/icon85</item>
+        <item>@drawable/icon86</item>
+        <item>@drawable/icon87</item>
+        <item>@drawable/icon88</item>
+        <item>@drawable/icon89</item>
+        <item>@drawable/icon90</item>
+        <item>@drawable/icon91</item>
+        <item>@drawable/icon92</item>
+        <item>@drawable/icon93</item>
+        <item>@drawable/icon94</item>
+        <item>@drawable/icon95</item>
+        <item>@drawable/icon96</item>
+        <item>@drawable/icon97</item>
+        <item>@drawable/icon98</item>
+        <item>@drawable/icon99</item>
+        <item>@drawable/icon100</item>
+        <item>@drawable/icon101</item>
+        <item>@drawable/icon102</item>
+        <item>@drawable/icon103</item>
+        <item>@drawable/icon104</item>
+        <item>@drawable/icon105</item>
+        <item>@drawable/icon106</item>
+        <item>@drawable/icon107</item>
+    </string-array>
+</resources>
