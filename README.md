@@ -23,6 +23,9 @@ UI及功能参照IOS应用:password 3
  * 设备数据查看 stetho
  * 策划删除 EasySwipeMenuLayout
  * 九宫格图片展示 ninegridview
- * 图片获取 takephoto_library
- * 内存泄漏查看 leakcanary
+ * 获取相册图片 takephoto_library
+ * 内存泄漏检测 leakcanary
 
+> 注：
+* 只兼容Android5.0及以上版本手机
+* 分辨率最低支持480x320,最高支持2560x1440
