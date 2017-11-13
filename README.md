@@ -29,3 +29,8 @@ UI及功能参照IOS应用:password 3
 > 注：
 * 只兼容Android5.0及以上版本手机
 * 分辨率最低支持480x320,最高支持2560x1440
+
+![截图](https://raw.githubusercontent.com/chenzaidong/EasyRecord/master/screenshot/a1.png)
+![截图](https://raw.githubusercontent.com/chenzaidong/EasyRecord/master/screenshot/a2.png)
+![截图](https://raw.githubusercontent.com/chenzaidong/EasyRecord/master/screenshot/a3.png)
+![截图](https://raw.githubusercontent.com/chenzaidong/EasyRecord/master/screenshot/a4.png)
